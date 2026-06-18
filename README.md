@@ -1,5 +1,15 @@
 # historical-citation-check
-这是一个面向历史学论文写作的 Codex skill，用于检查和整理论文中的脚注、尾注与文献注释。它会按照历史研究常见注释体例，帮助用户识别注释中的格式问题、字段缺漏、标点问题、外文斜体问题和页码标注问题。
+这是一个面向历史学论文写作的skill，用于检查和整理论文中的脚注、尾注与文献注释。它会按照历史研究常见注释体例，帮助用户识别注释中的格式问题、字段缺漏、标点问题、外文斜体问题和页码标注问题。
+## 安装方式
+Windows PowerShell 一行安装
+用户只需要复制下面这一行到 Windows PowerShell：
+```
+irm https://raw.githubusercontent.com/BlackteaZ0620/historical-citation-ch
+```
+macOS / Linux
+```
+git clone https://github.com/BlackteaZ0620/historical-citation-check.git ~/.codex/skills/historical-citation-check
+```
 ## 主要功能
 使用本 skill 后，工具会读取用户提供的 Word 文档，并尽量保留原文中的斜体、空格、中英文标点和脚注内容。检测应基于 Word 原始字符和 run 级格式区间，而不是基于转换后 Markdown 中额外添加的星号。默认会生成一份文件：
 citation-errors.md
