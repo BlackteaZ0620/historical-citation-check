@@ -4,7 +4,7 @@
 Windows PowerShell 一行安装
 用户只需要复制下面这一行到 Windows PowerShell：
 ```
-irm https://raw.githubusercontent.com/BlackteaZ0620/historical-citation-ch
+irm https://raw.githubusercontent.com/BlackteaZ0620/historical-citation-check/main/install.ps1 | iex
 ```
 macOS / Linux
 ```
